@@ -160,6 +160,15 @@ html {
   border: 2px solid var(--dark);
 }
 
+.window-container-2 {
+  border-radius: 50rem 50rem 2rem 2rem;
+  background-color: var(--v-light);
+  border: 2px solid var(--dark);
+  padding: 0.5rem;
+}
+
+.no-deco { text-decoration: none;}
+
 .bg-dark     { background-color: var(--dark);}
 .bg-featured { background-color: var(--featured);}
 .bg-medium   { background-color: var(--medium); }
