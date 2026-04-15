@@ -12,13 +12,15 @@ social:
   pinterest_url:
   linkedin_url:
 design:
-  dark-text_color: '#3c3c41'
-  medium-text_color: '#5a5a5f'
+  dark-text_color: '#303E72'
+  medium-text_color: '#D07427'
   light-text_color: '#f7f5f3'
   featured-text_color: '#ff0000'
-  dark_color: '#3c3c41'
-  medium_color: '#ede8e4'
+  dark_color: '#303E72'
+  medium_color: '#D07427'
   light_color: '#f7f5f3'
-  v-light_color: '#f9f9f9'
+  v-light_color: '#FFFCF4'
   featured_color: '#6495ed'
   accent_color: '#a74a4a'
+neuigkeiten-banner: true
+neuigkeiten-banner-text: 'Bilder zeigen noch das CaféLaden - neue folgen bald.'

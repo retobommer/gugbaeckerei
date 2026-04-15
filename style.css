@@ -124,6 +124,11 @@ html {
 
 /* ------------ Backgrounds & Background Images  ----------------------- */
 
+.img-style-1 {
+  border-radius: 2rem;
+  border: 2px solid var(--dark);
+}
+
 .bg-dark     { background-color: var(--dark);}
 .bg-featured { background-color: var(--featured);}
 .bg-medium   { background-color: var(--medium); }
@@ -206,14 +211,15 @@ body {
 
 h1 {
   font-family: 'Milk and Clay', sans-serif;
+  font-size: 3rem;
 }
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   margin-bottom: 1.2rem;
 }
 
-h2 { font-size: 2rem; }
+h2 { font-size: 1.9rem; }
 h3 { font-size: 1.8rem; }
 h4 { font-size: 1.6rem; }
 h5 { font-size: 1.4rem; }
@@ -223,7 +229,7 @@ p, li {
   line-height: 1.4; 
   margin-bottom: 1rem;
   font-family: 'Montserrat', serif; 
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1rem;
 }
 
@@ -234,6 +240,18 @@ h5:last-child,
 h6:last-child, 
 p:last-child {
 	margin-bottom: 0;
+}
+
+
+.manston { 
+  font-family: 'Manston', cursive;
+  font-weight: 400;
+}
+
+.milk-and-clay {
+  font-family: 'Milk and Clay', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 /* Unique Typography Styles  */
@@ -252,6 +270,18 @@ p:last-child {
 .text-white     { color: white; }
 
 .no-deco { text-decoration: none; }
+
+
+/* ------------ Badges ------------ */
+
+.badge-1 {
+  background-color: var(--v-light);
+  border: 2px solid var(--dark);
+  padding: 0.5rem;
+  padding-top: 0.8rem;
+  margin-left: -8rem;
+  border-radius: 0.8rem;
+}
 
 
 /* ------------ Buttons & Links ------------ */
@@ -276,8 +306,13 @@ p a:hover {
     display: inline-block;
     text-decoration: none;
     line-height: 1;
-    padding: 0.5rem 1.5rem;
-    border: 1px solid;
+    padding: 0.5rem 1rem;
+    padding-top: 0.7rem;
+    border: 1px solid var(--dark);
+    background-color: var(--v-light);
+    font-family: 'Milk and Clay', sans-serif;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
 }
 
 .button:hover {
@@ -292,6 +327,13 @@ p a:hover {
 /* suggested additional styles 
 - .button-inverted, .button-subtle, .button-lg  */
 
+.neuigkeiten-banner {
+  text-align: center;
+  padding: 0.3rem;
+  color: white;
+  background-color: var(--medium);
+}
+
 
 /* ------------ Header & Hamburger Menu -------------- */
 
@@ -304,13 +346,24 @@ p a:hover {
 .logo {
   position: absolute;
   width: 100%;
-  padding: 1rem;
+  padding: 2.5rem;
+  top: 1rem;
 }
 
-
+.nav-header {
+  padding: 1rem;
+  background-color: var(--v-light);
+  border: 1.5px solid var(--dark);
+  border-left: 0;
+  border-radius: 0 1rem 1rem 0;
+  font-family: 'Milk and Clay', sans-serif;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
 
 nav a {
-    padding: 0.25rem 0.5rem;
+    padding: 0.25rem 1rem;
     display: inline-block;
     text-decoration: none;
 }
@@ -354,7 +407,6 @@ footer nav a {
 .dropdown { 
   position: relative; 
   display: inline-block;
-  border: 1px solid orange;
 }
 
 .dropdown-title {
@@ -372,7 +424,6 @@ footer nav a {
   z-index: 2;
   text-align: left;
   min-width: 10rem;
-  border: 1px solid mediumvioletred;
 }
 
 .dropdown:hover .dropdown-content{ 

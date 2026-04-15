@@ -10,6 +10,12 @@
 <body>
 
     {% include inline-styles.html %}
+
+    {% if site.data.site-settings.neuigkeiten-banner %}
+    <div class="neuigkeiten-banner center">
+        <p> {{ site.data.site-settings.neuigkeiten-banner-text }}</p>
+    </div>
+    {% endif %}
     
     {% include site-header.html %}
 
