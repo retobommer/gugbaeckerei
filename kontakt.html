@@ -1,0 +1,44 @@
+---
+layout: default
+title: Kontakt
+aos: false
+slick-slider: false
+pop-up: false
+seo:
+  title: Kontakt
+  description:
+  social_image:
+  twitter_card:
+  keywords: 
+  hide-from-google: false
+---
+<section class="padded padded-t-0 capped-width-v-narrow">
+  <div class="center editable">
+      <h1 class="milk-and-clay"> Bestell- und Kontaktformular </h1>
+  </div>
+  <form class="margin-t-2 xs-margin-t-1" action="https://formspree.io/" method="POST">
+        <label for="_vorname"> Vorname </label>
+        <input type="text" name="_vorname" id="_vorname" required/>
+
+        <label for="_nachname"> Nachname </label>
+        <input type="text" name="_nachname" id="_nachname" required />
+
+        <label for="_adresse"> Strasse, Nr. </label>
+        <input type="text" name="_adresse" id="_adresse" />
+
+        <label for="_wohnort"> PLZ, Wohnort </label>
+        <input type="text" name="_wohnort" id="_wohnort" />
+
+        <label for="_replyto"> Email </label>
+        <input type="email" name="_replyto" id="_replyto" required />
+
+      <label for="phone"> Telefonnummer </label>
+      <input type="tel" id="phone" name="phone" pattern="+[0-9]{2}-[0-9]{2}-[0-9]{3}-[0-9]{4}" /> 
+ 
+      <label for="message"> Nachricht </label>
+      <textarea name="message" id="message" required></textarea>
+ 
+      <button type="submit" class="button button-color"> Abschicken </button>
+  </form>
+
+</section>

@@ -18,9 +18,9 @@ design:
   featured-text_color: '#ff0000'
   dark_color: '#303E72'
   medium_color: '#D07427'
-  light_color: '#f7f5f3'
+  light_color: '#819941'
   v-light_color: '#FFFCF4'
-  featured_color: '#6495ed'
+  featured_color: '#51381B'
   accent_color: '#a74a4a'
 neuigkeiten-banner: true
 neuigkeiten-banner-text: 'Bilder zeigen noch das CaféLaden - neue folgen bald.'
