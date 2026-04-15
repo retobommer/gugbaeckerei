@@ -90,6 +90,9 @@ html {
 .padded-l-0 { padding-left: 0; }
 .padded-r-0 { padding-right: 0; }
 
+.padded-t-4 { padding-top: 4rem; }
+
+
 .padded-c1 {
   padding: 0 5% 5% 5%;
 }
@@ -469,7 +472,35 @@ p:last-child {
 
 
 
-/* FAQ */
+
+
+
+
+
+.opening-row {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.opening-row + .opening-row {
+  margin-top: 1rem;
+}
+
+.opening-day {
+  font-weight: 700;
+}
+
+.opening-time div + div {
+  margin-top: 0.2rem;
+}
+
+.opening-row p {
+  margin-bottom: 0.3rem;
+  font-size: 1.3rem;
+}
+
 
 
 
@@ -774,6 +805,7 @@ nav a {
     padding: 0.25rem 1rem;
     display: inline-block;
     text-decoration: none;
+    cursor: pointer;
 }
 nav a:hover {
   color: var(--featured-text);
