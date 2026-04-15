@@ -896,10 +896,12 @@ footer nav a:hover {
   left: -1rem;
   padding: 0.5rem;
   display:none; 
-  background-color: white;
+  background-color: var(--v-light);
   z-index: 2;
   text-align: left;
   min-width: 10rem;
+  border: 2px solid var(--dark);
+  border-radius: 1.5rem;
 }
 
 .dropdown:hover .dropdown-content{ 
