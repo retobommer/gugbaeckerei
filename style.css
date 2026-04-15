@@ -144,6 +144,22 @@ html {
   border: 2px solid var(--dark);
 }
 
+.window-container {
+  width: 25%;
+  border-radius: 50rem 50rem 2rem 2rem;
+  background-color: var(--v-light);
+  border: 2px solid var(--dark);
+  padding: 0.5rem;
+  position: absolute;
+  right: 15%;
+  bottom: -10%;
+}
+
+.window-polar-img {
+  border-radius: 50rem 50rem 2rem 2rem;
+  border: 2px solid var(--dark);
+}
+
 .bg-dark     { background-color: var(--dark);}
 .bg-featured { background-color: var(--featured);}
 .bg-medium   { background-color: var(--medium); }
@@ -157,10 +173,14 @@ html {
 
 .bg-image {
     background-color: var(--light); /* Set a fall-back color while images are loading */ 
-    background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600');
+    background-image: url('/images/reto-2.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
+}
+
+.bg-ueber-mich {
+  background-image: url('/images/bg-ueber-mich.jpg');
 }
 
 .bg-overlay::after {
@@ -686,18 +706,13 @@ a {
     color: inherit;
 }
 
-a:hover {
-  color: var(--featured-text); 
-}
 
 p a {
     text-decoration: none;
     border-bottom: 1px solid;
 }
 
-p a:hover { 
-  color: var(--featured-text); 
-}
+
 
 .button { 
     display: inline-block;
@@ -807,13 +822,19 @@ nav a {
     text-decoration: none;
     cursor: pointer;
 }
+
 nav a:hover {
-  color: var(--featured-text);
+    opacity: 0.8;
+  transition: all 0.3s ease;
 }
+
 
 /* ------------ Footer Styles -------------- */
 
-
+footer div a:hover {
+    opacity: 0.8;
+  transition: all 0.3s ease;  
+}
 
 .footer-logo {
   width: 22rem;
@@ -837,7 +858,12 @@ footer nav a {
   font-weight: 400;
   font-family: 'Milk and Clay', sans-serif;
   font-size: 1.4rem;
+  transition: all 0.3s ease;
+}
 
+footer nav a:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease;
 }
 
 .fa-brands {
@@ -1119,6 +1145,7 @@ button {
     border-radius: 0.5rem;
     cursor: pointer;
     font-size: 1.1rem;
+    color: var(--dark);
 }
 
 button:hover {
