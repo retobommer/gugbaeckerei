@@ -11,27 +11,90 @@ seo:
 ---
 
 
-<section class="capped-width margin-t-2 padded-t-4 margin-b-2 padded-b-2">
+<section class="capped-width margin-t-2 padded-t-4 margin-b-2 padded-b-2 padded">
   <div class="grid bg-v-light padded border-radius-1 relative">
 
     <div class="badge-2">
-      <h3> Auf Bestellung </h3>
+      <h1 class="margin-b-0"> Torten </h1>
     </div>
 
     <div class="col-5 padded-2">
       <h2 class="manston two5rem"> genussvoll und glutenfrei </h2>
       <br><br>
       <p> Folgende Produkte können via Kontaktformular 2 Tage im voraus bestellt werden. </p>
-      <ul class="margin-l-2">
-        <li> Bündner Nusstorte </li>
-        <li> Limetten-Cheese-Cake </li>
-
-      </ul>
-      <br>
-      <a href="/kontakt.html" class="button"> jetzt bestellen </a>
     </div>
     <div class="col-7">
       <img src="/images/collage-2.png">
     </div>
   </div>
+</section>
+
+
+<section class="capped-width padded">
+  <div class="grid-spaceAround">
+    <div class="col-5 padded bg-v-light margin border-radius-1">
+      <h3 class="milk-and-clay"> Linzertorte </h3>
+      <p> <strong> Der beliebte Klassiker - erfrischend und vegan. </strong> </p>
+      <p> 8 Peronen: CHF 37.- </p>
+      <p> 6 Peronen: CHF 29.- </p>
+      <p> 4 Peronen: CHF 21.- </p>
+      <p> Herz: CHF 22.- </p>
+    </div>
+    <div class="col-5 padded bg-v-light margin border-radius-1">
+      <h3 class="milk-and-clay"> Limetten-Ingwer-Torte </h3>
+      <p> <strong> Ein feines Zusammenspiel von Limetten & Ingwer. </strong> </p>
+      <p> 10 Peronen: CHF 66.- </p>
+      <p> 6 Peronen: CHF 42.- </p>
+    </div>
+    <div class="col-5 padded bg-v-light margin border-radius-1">
+      <h3 class="milk-and-clay"> Cheesecake </h3>
+      <p> <strong> Ob mit Mandarinen oder Chriesi, ein Genuss für den Gaumen. </strong> </p>
+      <p> 10 Peronen: CHF 66.- </p>
+      <p> 6 Peronen: CHF 42.- </p>
+    </div>
+    <div class="col-5 padded bg-v-light margin border-radius-1">
+      <h3 class="milk-and-clay"> Bündner Nusstorte </h3>
+      <p> <strong> Mit knackig gerösteten Baumnüssen, in einer schmelzenden Caramelsauce und umhüllt von einem herzhaften Teig.  </strong> </p>
+      <p> Wählbar mit Honig + Butter oder vegan </p>
+      <p> 10 Personen: CHF 65.- </p>
+    </div>
+    <div class="col-5 padded bg-v-light margin border-radius-1">
+      <h3 class="milk-and-clay"> In der Warteschlange </h3>
+      <p> <strong> Maronikuchen  </strong> </p>
+      <p> <strong> Schoggikuchen  </strong> </p>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="padded padded-t-0 capped-width-v-narrow">
+  <div class="center editable">
+      <h1 class="milk-and-clay"> Bestellformular </h1>
+  </div>
+  <form class="margin-t-2 xs-margin-t-1" action="https://formspree.io/f/xojyjvgl" method="POST">
+        <label for="_vorname"> Vorname </label>
+        <input type="text" name="_vorname" id="_vorname" required/>
+
+        <label for="_nachname"> Nachname </label>
+        <input type="text" name="_nachname" id="_nachname" required />
+
+        <label for="_adresse"> Strasse, Nr. </label>
+        <input type="text" name="_adresse" id="_adresse" />
+
+        <label for="_wohnort"> PLZ, Wohnort </label>
+        <input type="text" name="_wohnort" id="_wohnort" />
+
+        <label for="_replyto"> Email </label>
+        <input type="email" name="_replyto" id="_replyto" required />
+
+      <label for="phone"> Telefonnummer </label>
+      <input type="tel" id="phone" name="phone" pattern="+[0-9]{2}-[0-9]{2}-[0-9]{3}-[0-9]{4}" /> 
+ 
+      <label for="message"> Bestellung </label>
+      <textarea name="message" id="message" required></textarea>
+ 
+      <button type="submit" class="button button-color"> Abschicken </button>
+  </form>
+
 </section>
