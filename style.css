@@ -156,6 +156,13 @@ html {
   bottom: -10%;
 }
 
+.window-container-2 {
+  border-radius: 50rem 50rem 2rem 2rem;
+  background-color: var(--v-light);
+  border: 2px solid var(--dark);
+  padding: 0.5rem;
+}
+
 .window-polar-img {
   border-radius: 50rem 50rem 2rem 2rem;
   border: 2px solid var(--dark);
@@ -344,6 +351,24 @@ p:last-child {
 
 
 /* ------------ Badges ------------ */
+
+.badge-sm {
+  background-color: var(--dark);
+  border-radius: 0.8rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Milk and Clay', sans-serif;
+  padding: 0.8rem;
+  padding-top: 1.1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  border: 2px solid var(--v-light);
+  display: none;
+}
+
+.badge-sm h3 {
+  font-size: 1.4rem;
+}
 
 .badge-1 {
   background-color: var(--v-light);
@@ -827,7 +852,7 @@ p a {
 
 .mobile-logo {
   margin-top: 2rem;
-  width: 14rem;
+  width: 12rem;
   margin-bottom: 1rem;
 }
 
@@ -1267,6 +1292,16 @@ hr.short.center {
 	.show-md { display: block; }
 	.hide-md { display: none;  }
 
+  .md-padded { padding: 5%;}
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  .badge-7 {
+      top: 2rem;
+    }
+
 }
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
@@ -1276,6 +1311,7 @@ hr.short.center {
 @media(max-width:48em) {
 
 	.show-sm { display: block; }
+  .show-sm-inline { display: inline-block;}
 	.hide-sm { display: none;  }
 
   .sm-text-center { text-align: center; }
@@ -1291,13 +1327,15 @@ hr.short.center {
   .sm-margin-t-0 { margin-top: 0; }
   .sm-margin-b-0 { margin-bottom: 0; }
 
+  .sm-left { text-align: left;}
+
   .sm-landscape     { padding-bottom: 66% ; }
   .sm-portrait-tall { padding-bottom: 175%; }
   .sm-portrait      { padding-bottom: 125%; }
   .sm-square        { padding-bottom: 100%; }
 
     .header-logo-container {
-      min-width: 14rem;
+      min-width: 12rem;
     }
 
     .badge-1 {
@@ -1317,6 +1355,22 @@ hr.short.center {
       h2 {
         font-size: 1.7rem;
       }
+
+      .index-card-1 {
+        margin-top: -2rem;
+      }
+
+      .badge-sm {
+        display: inline-blocks;
+      }
+
+      .sm-margin-c-1 { 
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    .sm-margin-b-0 { margin-bottom: 0;}
+
 
 }
 
@@ -1343,7 +1397,7 @@ hr.short.center {
     }
 
     .header-logo-container {
-      max-width: 14rem;
+      max-width: 12rem;
     }
 
 
@@ -1359,8 +1413,34 @@ hr.short.center {
         font-size: 1rem;
       }
 
+      h1 {
+        font-size: 1.6rem;
+      }
+
        h2 {
         font-size: 1.5rem;
       }
 
+        h3 {
+          font-size: 1.2rem;
+        }
+
+        footer nav a {
+          display: block;
+        }
+
+        .xs-center {
+          text-align: center;
+        }
+        
+        .footer-logo {
+            width: 16rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+          }
+
+      .badge-8 {
+          right: 0;
+          top: -2rem;
+        }
 }
