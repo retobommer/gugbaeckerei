@@ -1,11 +1,11 @@
 [[redirects]]
-  from = "https://gugbaeckerei.ch/*"
-  to = "https://xn--gugbckerei-t5a.ch/:splat"
+  from = "https://xn--gugbckerei-t5a.ch/*"
+  to = "https://gugbaeckerei.ch/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "https://www.gugbaeckerei.ch/*"
-  to = "https://xn--gugbckerei-t5a.ch.ch/:splat"
+  from = "https://www.xn--gugbckerei-t5a.ch/*"
+  to = "https://www.gugbaeckerei.ch/:splat"
   status = 301
   force = true
