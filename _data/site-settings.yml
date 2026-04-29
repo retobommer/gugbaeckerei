@@ -1,11 +1,11 @@
 seo:
-  site_name: Example
-  title: Example SEO Title
-  description:
-  keywords:
-  social_image:
-  author:
-  favicon_image:
+  site_name: gug Bäckerei Schwyz
+  title: Glutenfreie Bäckerei Schwyz – gug Bäckerei
+  description: Glutenfreie Bäckerei in Schwyz. Frisches Brot, feine Patisserie, Torten und Zmittag – genussvoll, hochwertig und ohne Kompromisse.
+  keywords: glutenfreie Bäckerei Schwyz, glutenfrei Brot Schwyz, glutenfreie Torten Schweiz, glutenfreie Patisserie, glutenfrei kaufen Schwyz, vegane Bäckerei Schwyz
+  social_image: /images/reto-2.jpg
+  author: gug Bäckerei | Reto Bommer
+  favicon_image: /icons/SVG/gug-baeckerei-hauptlogo-weiss.svg
 social:
   instagram_url: https://www.instagram.com/gugbaeckerei/
   facebook_url:
